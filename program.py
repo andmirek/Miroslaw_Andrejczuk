@@ -4,7 +4,6 @@ Created on Wed Dec 16 18:03:03 2020
 
 @author: rodzina
 """
-#https://github.com/andmirek/Miroslaw_Andrejczuk
 from datetime import datetime
 
 def get_data(fname):
