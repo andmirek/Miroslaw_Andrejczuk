@@ -8,7 +8,7 @@ from datetime import datetime
 
 def get_data(fname):
     """reads time from a file and returns list
-       with g starting and ending time"""
+       with a starting and ending time"""
     start = []
     endt = []
     with open(fname) as mfile:
@@ -28,6 +28,7 @@ def dtime(intime):
 
 def conflict(mtimes, mtimee, mstart, mend):
     """return true if mtimes or mtimee is between mstart and mend
+       or mstart and mend is between mtimes an mtimee
        mstart - start time
        mend   - end time
        mtimes,  mtimee - start/end time for testing"""
